@@ -8,7 +8,7 @@ const Discord = require('discord.js')
  });
 
  bot.on('message', message => {
-                            if (message.content === 'Eh bien... Qui est Nomo ?') {
+                            if (message.content === 'Eh bien... Qui est Nomo?') {
                             message.channel.send('Attends... Nos maux ce n\'est pas un nom.')
                             }
                           })
