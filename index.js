@@ -13,7 +13,7 @@ const Discord = require('discord.js')
 
       bot.on('message', message => {
                             if (message.content === '!chanteZ') {
-                            message.channel.send('Un regard incendiaire et tout est calciné !\nEmbrassez cette terre avant de l\'embraser…\nPar le feu de nos êtres, nous irons purifier \nNos ennemis, nos frères, qui nous ont contrariés…')
+                            message.channel.send('Un regard incendiaire et tout est calciné!\nEmbrassez cette terre avant de l\'embraser…\nPar le feu de nos êtres, nous irons purifier \nNos ennemis, nos frères, qui nous ont contrariés…')
                             }
                           })
       bot.on('message', message => {
