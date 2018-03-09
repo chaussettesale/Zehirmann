@@ -7,7 +7,17 @@ const Discord = require('discord.js')
    console.log("Je suis connecté !");
  });
 
+ bot.on('message', message => {
+                            if (message.content === 'Eh bien... Qui est Nomo ?') {
+                            message.channel.send('Attends... Nos maux ce n\'est pas un nom.')
+                            }
+                          })
 
+ bot.on('message', message => {
+                            if (message.content === 'Euh, je vois pas là ! C\'est une Histoire d\'O ?') {
+                            message.channel.send('Non ! Nos maux ! Comme des blessures, fêlures, brisures, brûlures ! Des trucs que tu vas subir si tu continues à ne rien comprendre !')
+                            }
+                          })
 
 
 
